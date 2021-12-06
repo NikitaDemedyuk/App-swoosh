@@ -16,15 +16,10 @@ class SkillVC: UIViewController {
         print(player.desiredLeague)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func goBackSkillVC(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
-    */
-
+    @IBAction func goBackToWelcomeVC(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
